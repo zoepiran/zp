@@ -1,21 +1,20 @@
 ---
-layout: cv
 title: CV
+hide-title: true
 ---
-# Zoe Piran
+# Curriculum Vitae
 
+## Zoe Piran
 <div id="webaddress">
 <a href="zoe.piran@mail.huji.ac.il">zoe.piran@mail.huji.ac.il</a>
 | <a href="http://zoe.piran.com">website</a> | <a href="https://github.com/zoepiran">Github</a>
 </div>
 
-
-### Currently
-
-Computer Science Ph.D. candidate at The Hebrew University, Jerusalem. Supervisor: Dr. Mor Nitzan.
-
-
 ### Education
+
+`2020-current` 
+__Ph.D. in Computer Science, The Hebrew University,
+Jerusalem.__
 
 `2018-2020` 
 __M.Sc. in Physics, The Hebrew University,
