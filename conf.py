@@ -24,7 +24,7 @@ extensions = [
     "sphinx.ext.todo",
     "sphinx.ext.viewcode",
     # Our custom extension, only meant for Furo's own documentation.
-    "furo"
+    "furo",
     # External stuff
     "myst_parser",
     "sphinx_copybutton",
