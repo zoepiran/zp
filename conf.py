@@ -2,7 +2,7 @@
 #
 # For the full list of built-in configuration values, see the documentation:
 # https://www.sphinx-doc.org/en/master/usage/configuration.html
-from importlib.metadata import 
+from importlib.metadata import metadata
 from datetime import datetime
 
 # -- Project information -----------------------------------------------------
