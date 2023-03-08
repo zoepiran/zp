@@ -1,0 +1,23 @@
+[project]
+name = "Zoe Piran"
+readme = "README.md"
+license = {file = "LICENSE"}
+authors = [
+    {name = "Zoe Piran"},
+]
+maintainers = [
+    {name = "Zoe Piran", email = "zoe.piran@mail.huji.ac.il"},
+]
+urls.Documentation = "https://zoepiran.com/"
+urls.Source = "https://github.com/nitzanlab/biolord"
+urls.Home-page = "https://github.com/zoepiran/zp"
+[project.optional-dependencies]
+
+doc = [
+    "sphinx>=5",
+    "sphinx-furo-theme>=1.0.0",
+    "myst_parser",
+    "sphinx_copybutton",
+    "sphinx_design",
+    "sphinx_inline_tabs",
+]
