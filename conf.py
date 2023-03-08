@@ -10,7 +10,7 @@ project = 'zoepiran'
 copyright = '2023, Zoe Piran'
 author = 'Zoe Piran'
 release = '0.0.1'
-project_name = "Zoe Piran"
+project_name = "ZP"
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
@@ -24,7 +24,7 @@ extensions = [
     "sphinx.ext.todo",
     "sphinx.ext.viewcode",
     # Our custom extension, only meant for Furo's own documentation.
-    "furo",
+    # "furo",
     # External stuff
     "myst_parser",
     "sphinx_copybutton",
