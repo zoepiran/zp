@@ -2,15 +2,18 @@
 #
 # For the full list of built-in configuration values, see the documentation:
 # https://www.sphinx-doc.org/en/master/usage/configuration.html
+from importlib.metadata import 
+from datetime import datetime
 
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'zoepiran'
-copyright = '2023, Zoe Piran'
-author = 'Zoe Piran'
-release = '0.0.1'
-project_name = "ZP"
+info = metadata("biolord")
+project_name = info["Name"]
+author = info["Author"]
+copyright = f"{datetime.now():%Y}, {author}"
+version = info["Version"]
+release = info["Version"]
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration

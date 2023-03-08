@@ -1,5 +1,5 @@
 [project]
-name = "Zoe Piran"
+name = "ZP"
 readme = "README.md"
 license = {file = "LICENSE"}
 authors = [
@@ -11,6 +11,7 @@ maintainers = [
 urls.Documentation = "https://zoepiran.com/"
 urls.Source = "https://github.com/nitzanlab/biolord"
 urls.Home-page = "https://github.com/zoepiran/zp"
+
 [project.optional-dependencies]
 
 doc = [
