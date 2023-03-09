@@ -13,17 +13,14 @@ hide-title: true
 ### Education
 
 `2020-current` 
-__Ph.D. in Computer Science, The Hebrew University,
-Jerusalem.__
+__Ph.D. in Computer Science, The Hebrew University.__
 
 `2018-2020` 
-__M.Sc. in Physics, The Hebrew University,
-Jerusalem.__\
+__M.Sc. in Physics, The Hebrew University.__\
 magna cum laude
 
 `2016 - 2018` 
-__B.Sc. double major in Physics and Computer Science, The Hebrew University,
-Jerusalem.__\
+__B.Sc. double major in Physics and Computer Science, The Hebrew University.__\
 magna cum laude
 
 
@@ -63,10 +60,10 @@ Acquiring computational biology knowledge while performing big data analysis on 
 
 ### Awards and Honors
 - `2022-current` Clore Scholarship for Ph.D students, The Clore Israel Foundation.
-- `2022-current` Scholarship for outstanding doctoral students in data-science, Council for Higher Education.
-- `2018-2020`  Scholarship for master's degrees for outstanding women in Hi-Tech, Council for Higher Education.
-- `2017-2018`  Computer Science Honors program for undergraduates, The Hebrew University, Jerusalem (2017-2018).
-- `2016-2018` Dean's Honors List, The Hebrew University, Jerusalem. 
+- `2022-current` Scholarship for outstanding doctoral students in data-science, Israeli Council for Higher Education.
+- `2018-2020`  Scholarship for master's degrees for outstanding women in Hi-Tech, Israeli Council for Higher Education.
+- `2017-2018`  Computer Science Honors program for undergraduates, The Hebrew University, Jerusalem, Israel.
+- `2016-2018` Dean's Honors List, The Hebrew University, Jerusalem, Israel. 
 
 
 ### Volunteering and Educational Work
@@ -79,9 +76,9 @@ Acquiring computational biology knowledge while performing big data analysis on 
 
 ### Presentations
 #### Invited talks
-- `February 2023` Weizmann Institute of Science, Shalev Itzkovitz Lab.
-- `November 2022` Hubrecht Institute, Super Group Meeting.
-- `October 2019` Harvard University, NSF-Simons Center for Quantitative Biology, QBio group meeting.
+- `February 2023` Shalev Itzkovitz Lab, Weizmann Institute of Science, Rehovot, Israel.
+- `November 2022` Super Group Meeting, Hubrecht Institute,  Utrecht, Netherlands.
+- `October 2019` QBio group meeting, NSF-Simons Center for Quantitative Biology, Harvard University, Cambridge, USA.
 
 #### Spotlight talks
 - `March 2023` Physics of Life 2023.
