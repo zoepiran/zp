@@ -19,12 +19,12 @@ Jerusalem.__
 `2018-2020` 
 __M.Sc. in Physics, The Hebrew University,
 Jerusalem.__\
-magna cum laude, Average: 95.8.
+magna cum laude
 
 `2016 - 2018` 
 __B.Sc. double major in Physics and Computer Science, The Hebrew University,
 Jerusalem.__\
-magna cum laude, Average: 94.
+magna cum laude
 
 
 <!-- ### Military Service
