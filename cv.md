@@ -60,7 +60,7 @@ Acquiring computational biology knowledge while performing big data analysis on 
 
 ### Awards and Honors
 - `2022-current` Clore Scholarship for Ph.D students, The Clore Israel Foundation.
-- `2022-current` Scholarship for outstanding doctoral students in data-science, Israeli Council for Higher Education.
+- `2021-current` Scholarship for outstanding doctoral students in data-science, Israeli Council for Higher Education.
 - `2018-2020`  Scholarship for master's degrees for outstanding women in Hi-Tech, Israeli Council for Higher Education.
 - `2017-2018`  Computer Science Honors program for undergraduates, The Hebrew University, Jerusalem, Israel.
 - `2016-2018` Dean's Honors List, The Hebrew University, Jerusalem, Israel. 
