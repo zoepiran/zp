@@ -9,6 +9,11 @@ from datetime import datetime
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 info = metadata("zp")
+# info = {
+#     "Name": "ZP",
+#     "Author": "Zoe Piran",
+#     "Version": "0.0.1"
+# }
 project_name = info["Name"]
 author = info["Author"]
 copyright = f"{datetime.now():%Y}, {author}"
@@ -55,6 +60,8 @@ html_css_files = [
       "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/solid.min.css",
       "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/brands.min.css",
 ]
+
+html_favicon = "_static/img/favicon.ico"
 
 html_theme_options = {
     "footer_icons": [
