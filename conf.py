@@ -94,6 +94,8 @@ html_theme_options = {
         "color-sidebar-background": "#A7B1A4",
         "color-brand-content": "#CECDCD",
         "color-background-primary":"#424641",
-        "color-brand-primary": "#5D5A5B"
+        "color-brand-primary": "#5D5A5B",
+        "color-background-secondary": "#424641",
+        "color-background-hover": "#424641"
     },
 }
