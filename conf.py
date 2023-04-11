@@ -85,9 +85,6 @@ html_theme_options = {
         }
     ],
     "light_css_variables": {
-        "color-brand-primary": "#ffffff",
-        "color-admonition-background": "#fffaef",
-        "color-sidebar-background": "ecf6ff",
-        "color-foreground-secondary": "#5a5a5a"
+        "color-sidebar-background": "#f8f9fb",
     },
 }
