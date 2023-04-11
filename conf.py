@@ -84,4 +84,9 @@ html_theme_options = {
             "class": "fa-sharp fa-solid fa-graduation-cap fa-2x"
         }
     ],
+    "light_css_variables": {
+        "color-brand-primary": "#ffffff",
+        "color-brand-content": "#ecf6ff",
+        "color-admonition-background": "#fffaef",
+    },
 }
