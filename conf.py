@@ -90,4 +90,10 @@ html_theme_options = {
         "color-background-primary":"#F6F7F5",
         "color-brand-primary": "#5D5A5B"
     },
+    "dark_css_variables": {
+        "color-sidebar-background": "#A7B1A4",
+        "color-brand-content": "#CECDCD",
+        "color-background-primary":"#424641",
+        "color-brand-primary": "#5D5A5B"
+    },
 }
