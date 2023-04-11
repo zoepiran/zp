@@ -95,7 +95,7 @@ html_theme_options = {
         "color-brand-content": "#CECDCD",
         "color-background-primary":"#424641",
         "color-brand-primary": "#5D5A5B",
-        "color-background-secondary": "#424641",
-        "color-background-hover": "#424641"
+        "color-background-secondary": "#CECDCD",
+        "color-background-hover": "#CECDCD"
     },
 }
