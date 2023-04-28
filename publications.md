@@ -1,5 +1,7 @@
 # Publications
 
+__Mapping lineage-traced cells across time points with moslin__\
+M. Lange*, __Z. Piran*__, M. Klein*, B. Spanjaard*, D. Klein, J. P. Junker, F. J. Theis, \& M. Nitzan. _bioRxiv (2023)_. *equal contribution. [[Preprint]](https://doi.org/10.1101/2023.04.14.536867)
 
 __Biological representation disentanglement of single-cell data__\
 __Z. Piran__, N. Cohen, Y. Hoshen \& M. Nitzan. _bioRxiv (2023)_. [[Preprint]](https://www.biorxiv.org/content/10.1101/2023.03.05.531195)
@@ -11,9 +13,6 @@ __Z. Piran__ \& M. Nitzan. _bioRxiv (2023)_. [[Preprint]](https://www.biorxiv.or
 
 __Phase2vec: Dynamical systems embedding with a physics-informed convolutional network__\
 M. Ricci, N. Moriel, __Z. Piran__ \& M. Nitzan. _Eleventh International Conference on Learning Representations (2023)_. [[Paper]](https://openreview.net/forum?id=z9C5dGip90)
-
-__Mapping lineage-traced single-cells across time-points__\
-M. Lange*, __Z. Piran*__, M. Klein, F. J. Theis, \& M. Nitzan. _LMRL Workshop-NeurIPS (2021)_. *equal contribution. [[Paper]](https://drive.google.com/file/d/15-S2iKS4l_Okq4WFqJx7L6EJYZz54-Id/view?usp=sharing)
 
 __The Origin of Binary Black Holes Mergers__\
 __Z. Piran__ \& T. Piran. _The Astrophysical Journal (2020)_. [[Paper]](https://iopscience.iop.org/article/10.3847/1538-4357/ab792a)

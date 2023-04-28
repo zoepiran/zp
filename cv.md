@@ -76,6 +76,7 @@ Acquiring computational biology knowledge while performing big data analysis on 
 
 ### Presentations
 #### Invited talks
+- `April 2023` Lander Lab, Broad Institute of MIT and Harvard, Cambridge, USA.
 - `February 2023` Shalev Itzkovitz Lab, Weizmann Institute of Science, Rehovot, Israel.
 - `November 2022` Super Group Meeting, Hubrecht Institute,  Utrecht, Netherlands.
 - `October 2019` QBio group meeting, NSF-Simons Center for Quantitative Biology, Harvard University, Cambridge, USA.
