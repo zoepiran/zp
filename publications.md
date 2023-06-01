@@ -1,5 +1,8 @@
 # Publications
 
+__Mapping cells through time and space with moscot__\
+D. Klein*, G. Palla*, M. Lange*, M. Klein*, __Z. Piran*__, M. Gander, L. Meng-Papaxanthos, M. Sterr, A. Bastidas-Ponce, M. Tarquis-Medina, H. Lickert, M. Bakhti, M. Nitzan, M. Cuturi, F. J. Theis. _bioRxiv (2023)_. *equal contribution. [[Preprint]](https://doi.org/10.1101/2023.05.11.540374)
+
 __Mapping lineage-traced cells across time points with moslin__\
 M. Lange*, __Z. Piran*__, M. Klein*, B. Spanjaard*, D. Klein, J. P. Junker, F. J. Theis, \& M. Nitzan. _bioRxiv (2023)_. *equal contribution. [[Preprint]](https://doi.org/10.1101/2023.04.14.536867)
 
@@ -19,4 +22,4 @@ __Z. Piran__ \& T. Piran. _The Astrophysical Journal (2020)_. [[Paper]](https://
 
 
 __The Dual Information Bottleneck__\
-__Z. Piran__ R. Shwartz-Ziv, \& N. Tishby. _arXiv (2020)_. [[Preprint]](https://arxiv.org/abs/2006.04641)
+__Z. Piran__, R. Shwartz-Ziv, \& N. Tishby. _arXiv (2020)_. [[Preprint]](https://arxiv.org/abs/2006.04641)
