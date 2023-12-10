@@ -7,7 +7,7 @@ hide-title: true
 ## Zoe Piran
 <div id="webaddress">
 <a href="zoe.piran@mail.huji.ac.il">zoe.piran@mail.huji.ac.il</a>
-| <a href="http://zoe.piran.com">website</a> | <a href="https://github.com/zoepiran">Github</a>
+| <a href="http://zoepiran.com">website</a> | <a href="https://github.com/zoepiran">Github</a>
 </div>
 
 ### Education
@@ -41,6 +41,12 @@ of Computer Science and Engineering, Dr. Mor Nitzan.___
 "Encoding and decoding cellular identities in single-cell data."\
 Uncovering structure in complex biological systems using methods and ideas from Computer Science and Physics.
 
+`May 2023-September 2023` 
+___ Apple ML Research, Paris, Prof. Marco Cuturi.___
+
+"Self-supervised Learning with the Matching Gap"\
+Combining self-supervised learning with optimal transport theory.
+
 `2018-2020` 
 ___Hebrew University, Racah Institute, Prof. Naftail Tishby and Prof. Zohar Ringel.___
 
@@ -66,7 +72,7 @@ Acquiring computational biology knowledge while performing big data analysis on 
 - `2016-2018` Dean's Honors List, The Hebrew University, Jerusalem, Israel. 
 
 
-### Volunteering and Educational Work
+### Educational Work
 - `2020-current` Co-leader of the *"Physics & Computer Science undergraduate program"* at the Hebrew University. 
 - `2018-current` Teacher assistant at the Hebrew University:
     - *"Computation and Physics Lab."*
@@ -76,6 +82,7 @@ Acquiring computational biology knowledge while performing big data analysis on 
 
 ### Presentations
 #### Invited talks
+- `December 2023` Compugen Ltd, Holon, Israel.
 - `April 2023` Lander Lab, Broad Institute of MIT and Harvard, Cambridge, USA.
 - `February 2023` Shalev Itzkovitz Lab, Weizmann Institute of Science, Rehovot, Israel.
 - `November 2022` Super Group Meeting, Hubrecht Institute,  Utrecht, Netherlands.
