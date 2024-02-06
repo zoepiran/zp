@@ -82,6 +82,8 @@ Acquiring computational biology knowledge while performing big data analysis on 
 
 ### Presentations
 #### Invited talks
+- `February 2024` Immunai Inc. Tel Aviv, Israel.
+- `December 2023` Optimal Transport and Machine Learning workshop at Neural Information Processing Systems 2023, Virtual.
 - `December 2023` Compugen Ltd, Holon, Israel.
 - `April 2023` Lander Lab, Broad Institute of MIT and Harvard, Cambridge, USA.
 - `February 2023` Shalev Itzkovitz Lab, Weizmann Institute of Science, Rehovot, Israel.
