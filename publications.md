@@ -1,6 +1,6 @@
 # Publications
 
-__`SiFT: uncovering hidden biological processes by probabilistic filtering of single-cell data__\
+__SiFT: uncovering hidden biological processes by probabilistic filtering of single-cell data__\
 __Z. Piran__ \& M. Nitzan. _Nature Communications_ 15.1 (2024): 760. [[Paper]](https://doi.org/10.1038/s41467-024-44757-7)
 
 __Disentanglement of single-cell data with biolord__\
