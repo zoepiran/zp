@@ -38,14 +38,14 @@ forensics), Telecom Infrastructure and Information Security Research. -->
 ___Hebrew University, School
 of Computer Science and Engineering, Dr. Mor Nitzan.___
 
-"Encoding and decoding cellular identities in single-cell data."\
+"Decoding cellular identities in single-cell data."\
 Uncovering structure in complex biological systems using methods and ideas from Computer Science and Physics.
 
 `May 2023-September 2023` 
-___ Apple ML Research, Paris, Prof. Marco Cuturi.___
+___Apple ML Research, Paris, Prof. Marco Cuturi.___
 
-"Self-supervised Learning with the Matching Gap"\
-Combining self-supervised learning with optimal transport theory.
+"Contrasting Multiple Representations with the Multi-Marginal Matching Gap"\
+Using tools from optimal transport theory to learn meaningful representations of objects seen through multiple views.
 
 `2018-2020` 
 ___Hebrew University, Racah Institute, Prof. Naftail Tishby and Prof. Zohar Ringel.___
@@ -82,11 +82,12 @@ Acquiring computational biology knowledge while performing big data analysis on 
 
 ### Presentations
 #### Invited talks
+- `May 2024` Nir Yosef's Lab, Weizmann Institute of Science, Rehovot, Israel.
 - `February 2024` Immunai Inc. Tel Aviv, Israel.
 - `December 2023` Optimal Transport and Machine Learning workshop at Neural Information Processing Systems 2023, Virtual.
 - `December 2023` Compugen Ltd, Holon, Israel.
-- `April 2023` Lander Lab, Broad Institute of MIT and Harvard, Cambridge, USA.
-- `February 2023` Shalev Itzkovitz Lab, Weizmann Institute of Science, Rehovot, Israel.
+- `April 2023` The Lander Lab, Broad Institute of MIT and Harvard, Cambridge, USA.
+- `February 2023` Shalev Itzkovitz's Lab, Weizmann Institute of Science, Rehovot, Israel.
 - `November 2022` Super Group Meeting, Hubrecht Institute,  Utrecht, Netherlands.
 - `October 2019` QBio group meeting, NSF-Simons Center for Quantitative Biology, Harvard University, Cambridge, USA.
 
