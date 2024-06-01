@@ -82,6 +82,8 @@ Acquiring computational biology knowledge while performing big data analysis on 
 
 ### Presentations
 #### Invited talks
+- `May 2024` Arjun Raj's Lab, University of Pennsylvania, Philadelphia, USA.
+- `May 2024` Center for Computational Biology, Flatiron Institute, Simons Foundation, New York, USA.
 - `May 2024` Nir Yosef's Lab, Weizmann Institute of Science, Rehovot, Israel.
 - `February 2024` Immunai Inc. Tel Aviv, Israel.
 - `December 2023` Optimal Transport and Machine Learning workshop at Neural Information Processing Systems 2023, Virtual.
