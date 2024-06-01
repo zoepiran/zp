@@ -25,4 +25,4 @@ __The Origin of Binary Black Holes Mergers__\
 __Z. Piran__ \& T. Piran. _The Astrophysical Journal_ (2020). [[Paper]](https://iopscience.iop.org/article/10.3847/1538-4357/ab792a)
 
 __The Dual Information Bottleneck__\
-__Z. Piran__, R. Shwartz-Ziv, \& N. Tishby. _arXiv_ (2020). [[Preprint]](https://arxiv.org/abs/2006.04641)
+__Z. Piran__, R. Shwartz-Ziv \& N. Tishby. _arXiv_ (2020). [[Preprint]](https://arxiv.org/abs/2006.04641)
