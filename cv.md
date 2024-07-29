@@ -81,6 +81,11 @@ Acquiring computational biology knowledge while performing big data analysis on 
 - `2018-current` Management of media channels of the Racah Institute of Physics, the Hebrew University.
 
 ### Presentations
+#### Orals
+- `July 2024` International Conference on Machine Learning 2024.
+- `March 2023` Physics of Life 2023.
+- `June 2022` Single Cell Biology 2022.
+
 #### Invited talks
 - `July 2024` Stanford AI+Biomedicine Seminar, Stanford University, California, USA.
 - `May 2024` Arjun Raj's Lab, University of Pennsylvania, Philadelphia, USA.
@@ -93,11 +98,6 @@ Acquiring computational biology knowledge while performing big data analysis on 
 - `February 2023` Shalev Itzkovitz's Lab, Weizmann Institute of Science, Rehovot, Israel.
 - `November 2022` Super Group Meeting, Hubrecht Institute,  Utrecht, Netherlands.
 - `October 2019` QBio group meeting, NSF-Simons Center for Quantitative Biology, Harvard University, Cambridge, USA.
-
-#### Oral presentations
-- `July 2024` International Conference on Machine Learning 2024.
-- `March 2023` Physics of Life 2023.
-- `June 2022` Single Cell Biology 2022.
 
 #### Posters
 - `January 2022` The 5th Advanced School in Computer Science and Engineering: AI for Better Medicine.
