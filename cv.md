@@ -82,6 +82,7 @@ Acquiring computational biology knowledge while performing big data analysis on 
 
 ### Presentations
 #### Invited talks
+- `July 2024` Stanford AI+Biomedicine Seminar, Stanford University, California, USA.
 - `May 2024` Arjun Raj's Lab, University of Pennsylvania, Philadelphia, USA.
 - `May 2024` Center for Computational Biology, Flatiron Institute, Simons Foundation, New York, USA.
 - `May 2024` Nir Yosef's Lab, Weizmann Institute of Science, Rehovot, Israel.
@@ -93,7 +94,8 @@ Acquiring computational biology knowledge while performing big data analysis on 
 - `November 2022` Super Group Meeting, Hubrecht Institute,  Utrecht, Netherlands.
 - `October 2019` QBio group meeting, NSF-Simons Center for Quantitative Biology, Harvard University, Cambridge, USA.
 
-#### Spotlight talks
+#### Oral presentations
+- `July 2024` International Conference on Machine Learning 2024.
 - `March 2023` Physics of Life 2023.
 - `June 2022` Single Cell Biology 2022.
 

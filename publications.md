@@ -1,7 +1,7 @@
 # Publications
 
 __Contrasting Multiple Representations with the Multi-Marginal Matching Gap__\
-__Z. Piran*__, M. Klein*, J. Thornton \& M. Cuturi. _International Conference on Machine Learning_ (2024). *equal contribution. [[Paper]](https://arxiv.org/abs/2405.19532)
+__Z. Piran*__, M. Klein*, J. Thornton \& M. Cuturi. _International Conference on Machine Learning_ (2024). *equal contribution. [[Paper]](https://proceedings.mlr.press/v235/piran24a.html)
 
 __Identifying maximally informative signal-aware representations of single-cell data using the Information Bottleneck__\
 S. Dubnov, __Z. Piran__, H. Soreq \& M. Nitzan. _bioRxiv_ (2024). [[Preprint]](https://doi.org/10.1101/2024.05.22.595292)
