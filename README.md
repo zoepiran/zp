@@ -18,7 +18,9 @@ piranz [at] gene.com | zoep [at] cs.stanford.edu
 ---
 
 #### About
-I recently started my postdoc at Genentech and Stanford, hosted by [Aviv Regev](https://www.roche.com/about/leadership/aviv-regev), and [Jure Leskovec](https://cs.stanford.edu/people/jure/). I did my PhD at the Hebrew University of Jerusalem under the supervision of [Mor Nitzan](https://www.nitzanlab.com/copy-of-home),
+I recently started my postdoc at Genentech and Stanford, hosted by [Aviv Regev](https://www.roche.com/about/leadership/aviv-regev), and [Jure Leskovec](https://cs.stanford.edu/people/jure/). I intend to develop tools which will provide a deeper biological understanding by merging advancements in single-cell genomics and machine learning.
+
+I did my PhD at the Hebrew University of Jerusalem under the supervision of [Mor Nitzan](https://www.nitzanlab.com/copy-of-home),
 where my research focused on decoding cellular identities in single-cell data to explore axes of biological variation. I developed computational frameworks to disentangle and reconstruct the multifaceted nature of cellular identity by filtering known biological signals and applying semi-supervised disentanglement methods.
 
 I finished my MSc in Physics in 2020 at the Hebrew University of Jerusalem advised by [Naftali Tishby](https://en.wikipedia.org/wiki/Naftali_Tishby) and [Zohar Ringel](http://old.phys.huji.ac.il/~zohar.ringel/). My thesis was at the interface between information theory and statistical mechanics suggesting a technique for dimensionality reduction. Previously I received my BSc, double major in Physics and Computer Science, from The Hebrew University of Jerusalem in 2018.
