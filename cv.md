@@ -12,7 +12,7 @@ hide-title: true
 
 ### Education
 `2024-current`
-__Postdoctoral Fellow at Genentech Research & Early Development and the Stanford Computer Science Department.__
+__Postdoctoral Fellow at Genentech Research & Early Development and Stanford Computer Science Department.__
 
 `2020-2024` 
 __Ph.D. in Computer Science, The Hebrew University.__
