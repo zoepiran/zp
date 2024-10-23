@@ -6,13 +6,15 @@ hide-title: true
 
 ## Zoe Piran
 <div id="webaddress">
-<a href="zoe.piran@mail.huji.ac.il">zoe.piran@mail.huji.ac.il</a>
+<a href="piranz@gene.com">piranz@gene.com</a>
 | <a href="http://zoepiran.com">website</a> | <a href="https://github.com/zoepiran">Github</a>
 </div>
 
 ### Education
+`2024-current`
+__Postdoctoral Fellow at Genentech Research & Early Development and the Stanford Computer Science Department.__
 
-`2020-current` 
+`2020-2024` 
 __Ph.D. in Computer Science, The Hebrew University.__
 
 `2018-2020` 
@@ -34,7 +36,12 @@ forensics), Telecom Infrastructure and Information Security Research. -->
 
 ### Research Experience
 
-`2020-current` 
+`2024-current` 
+___Genentech Research & Early Development and the Stanford Computer Science Department, Aviv Regev and Prof. Jure Leskovec.___
+
+"Towards Deeper Biological Understanding: Merging Advancements in Single-Cell Genomics \& Machine Learning."
+
+`2020-2024` 
 ___Hebrew University, School
 of Computer Science and Engineering, Dr. Mor Nitzan.___
 
@@ -65,20 +72,20 @@ of Computer Science and Engineering and Alexander Silberman Institute of Life Sc
 Acquiring computational biology knowledge while performing big data analysis on biological data.
 
 ### Awards and Honors
-- `2022-current` Clore Scholarship for Ph.D students, The Clore Israel Foundation.
-- `2021-current` Scholarship for outstanding doctoral students in data-science, Israeli Council for Higher Education.
+- `2022-2024` Clore Scholarship for Ph.D students, The Clore Israel Foundation.
+- `2021-2024` Scholarship for outstanding doctoral students in data-science, Israeli Council for Higher Education.
 - `2018-2020`  Scholarship for master's degrees for outstanding women in Hi-Tech, Israeli Council for Higher Education.
 - `2017-2018`  Computer Science Honors program for undergraduates, The Hebrew University, Jerusalem, Israel.
 - `2016-2018` Dean's Honors List, The Hebrew University, Jerusalem, Israel. 
 
 
 ### Educational Work
-- `2020-current` Co-leader of the *"Physics & Computer Science undergraduate program"* at the Hebrew University. 
-- `2018-current` Teacher assistant at the Hebrew University:
+- `2020-2024` Co-leader of the *"Physics & Computer Science undergraduate program"* at the Hebrew University. 
+- `2018-2024` Teacher assistant at the Hebrew University:
     - *"Computation and Physics Lab."*
     - *"Mechanics for Bio-Medicine Students."*
     - *"General Physics - Mechanics For Chemistry \& Earth Students."*
-- `2018-current` Management of media channels of the Racah Institute of Physics, the Hebrew University.
+- `2018-2024` Management of media channels of the Racah Institute of Physics, the Hebrew University.
 
 ### Presentations
 #### Orals
