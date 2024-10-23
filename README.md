@@ -3,10 +3,9 @@
 <img align="right" src="_static/img/zp_profile.png" alt= “zp” width=150 height="" style="border-radius:50%"> 
 
 __Zoe Piran__\
-PhD Candidate,\
-Computer Science,\
-[The Hebrew University of Jerusalem](https://en.huji.ac.il/),\
-  zoe.piran [at] mail.huji.ac.il
+Postdoctoral Fellow,\
+[Genentech Research & Early Development](https://www.roche.com/innovation/structure/genentech), and  [Stanford Computer Science](https://www.cs.stanford.edu/).\
+piranz [at] gene.com | zoep [at] cs.stanford.edu 
   
   <a href="https://github.com/zoepiran"><i class="fa-brands fa-github fa-lg"></i></a>
   <a href="https://twitter.com/zoe_piran"><i class="fa-brands fa-twitter fa-lg"></i></a>
@@ -19,10 +18,7 @@ Computer Science,\
 ---
 
 #### About
+I recently started my postdoc at Genentech and Stanford, hosted by [Aviv Regev](https://www.roche.com/about/leadership/aviv-regev), and [Jure Leskovec](https://cs.stanford.edu/people/jure/). I did my PhD at the Hebrew University of Jerusalem under the supervision of [Mor Nitzan](https://www.nitzanlab.com/copy-of-home),
+where my research focused on decoding cellular identities in single-cell data to explore axes of biological variation. I developed computational frameworks to disentangle and reconstruct the multifaceted nature of cellular identity by filtering known biological signals and applying semi-supervised disentanglement methods.
 
-I am a PhD candidate at the Hebrew University of Jerusalem, supervised by [Dr. Mor Nitzan](https://www.nitzanlab.com/). I focus on decoding cellular identities in single-cell data, developing computational frameworks to
-1. _Disentangle_ and _reconstruct_ the multiple facets of cellular identity from single-cell data by filtering known biological signals and applying semi-supervised disentanglement methods.
-2. Infer the _underlying structure_ of different biological processes.
-3. Model and predict _information encoding mechanisms_ in cells.
-
-I finished my MSc in Physics in 2020 at the Hebrew University of Jerusalem advised by [Prof. Naftali Tishby](https://en.wikipedia.org/wiki/Naftali_Tishby) and [Prof. Zohar Ringel](http://old.phys.huji.ac.il/~zohar.ringel/). My thesis was at the interface between information theory and statistical mechanics suggesting a technique for dimensionality reduction. Previously I received my BSc, double major in Physics and Computer Science, from The Hebrew University of Jerusalem in 2018.
+I finished my MSc in Physics in 2020 at the Hebrew University of Jerusalem advised by [Naftali Tishby](https://en.wikipedia.org/wiki/Naftali_Tishby) and [Zohar Ringel](http://old.phys.huji.ac.il/~zohar.ringel/). My thesis was at the interface between information theory and statistical mechanics suggesting a technique for dimensionality reduction. Previously I received my BSc, double major in Physics and Computer Science, from The Hebrew University of Jerusalem in 2018.
