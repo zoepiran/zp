@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Regev Lab Retreat 2025 – Landing Page</title>
+  <title>Regev Lab Retreat 2025 – Landing Page</title>
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap');
     :root {
@@ -62,6 +62,9 @@
       padding: 2rem 1.5rem 2.5rem;
       text-align: center;
       transition: transform .2s, box-shadow .2s;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
     }
     .card:hover {
       transform: translateY(-6px);
@@ -82,8 +85,9 @@
       text-decoration: none;
       font-weight: 600;
       transition: background .2s;
+      margin-top: auto; /* aligns button to the bottom of the card */
     }
-    .card a.btn:hover { background: #005596; }
+    .card a.btn:hover { background: #004a85; }
 
     footer {
       background: #e2e8f0;
@@ -99,42 +103,41 @@
     <img src="img/regev_gene_science_darkai.png" alt="Regev Lab Logo" class="brand" />
   </header>
   <main>
-    <h1>Regev Lab Retreat 2025</h1>
-    <p class="tagline">Choose a path to dive into this year’s retreat activities</p>
+    <h1>Regev Lab Retreat 2025</h1>
+    <p class="tagline">Find out more about the retreat activities</p>
 
     <div class="cards">
       <!-- Convergence Call -->
       <div class="card">
         <div class="icon-emoji">🌐</div>
-        <h2>CONVERGENCE Grant Call</h2>
-        <p style="margin-bottom:1.5rem;">Predict, Perturb &amp; Observe Living Systems – $150M initiative</p>
+        <h2>CONVERGENCE Grant Call</h2>
+        <p style="margin-bottom:1.5rem;">Predict, Perturb &amp; Observe Living Systems – $150M initiative<br></p>
         <a class="btn" href="convergence_grant_call.html">Open Page</a>
       </div>
       <!-- Agents Session -->
       <div class="card">
         <div class="icon-emoji">🤖</div>
-        <h2>Science With Agents </h2>
+        <h2>Science With Agents</h2>
         <p style="margin-bottom:1.5rem;">
-            <br> 
-            Discuss different use cases of agents in daily research</p>
+            <br>
+            Import/export—AI agents in daily research</p>
         <a class="btn" href="regev_lab_agents_session.html">Open Page</a>
       </div>
-        
+
       <!-- Night Science -->
       <div class="card">
         <div class="icon-emoji">☯</div>
-        <h2>Night Science Session</h2>
-        <p style="margin-bottom:1.5rem;"> 
-            <br> 
-            Focusing on the creative scientific process.</p>
+        <h2>Night Science Session</h2>
+        <p style="margin-bottom:1.5rem;">
+            <br>
+            The creative scientific process.<br>
+        </p>
         <a class="btn" href="day_night_science.html">Open Page</a>
       </div>
-
-
     </div>
   </main>
   <footer>
-    &copy; 2025 Regev Lab Retreat – Sciencing at the Regev Lab
+    &copy; 2025 Regev Lab Retreat – Sciencing at the Regev Lab
   </footer>
 </body>
 </html>
