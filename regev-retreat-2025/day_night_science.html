@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>An Introduction to Night Science</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Chosen Palette: Academic Calm -->
+    <!-- Application Structure Plan: The SPA uses a single-page, vertical scroll structure to guide users from abstract concepts to concrete action. It begins with an introduction to the core idea (the dichotomy), then provides a direct side-by-side comparison for clarity. This is followed by a summary table for reinforcement. The structure then shifts to application, framing the afternoon's objectives and presenting the discussion topics as an interactive element. Users can click on a topic to see its specific prompt, which encourages engagement and focus before the breakout session. This structure was chosen to transform a linear presentation into an exploratory experience, moving from "what" to "why" and finally to "how," making the content more digestible and actionable for the retreat participants. -->
+    <!-- Visualization & Content Choices:
+        - Report Info: Day vs. Night science concepts -> Goal: Compare/Contrast -> Viz/Method: Two-column responsive card layout using HTML/Tailwind -> Interaction: Subtle hover effects and clear visual separation -> Justification: More dynamic and visually engaging than separate slides, fostering direct comparison. -> Library/Method: HTML/Tailwind.
+        - Report Info: Summary comparison table -> Goal: Organize/Summarize -> Viz/Method: Styled HTML table -> Interaction: None -> Justification: A table is the most effective and standard way to present this highly structured summary data. -> Library/Method: HTML/Tailwind.
+        - Report Info: Afternoon discussion topics -> Goal: Engage/Prepare for Activity -> Viz/Method: Interactive button/card grid -> Interaction: On-click event reveals the specific prompt and guiding principles for the selected topic in a dedicated content area below. -> Justification: Transforms a passive list into an active exploration tool, allowing users to pre-engage with their topic of choice and understand the task more clearly. -> Library/Method: Vanilla JavaScript, HTML/Tailwind.
+    -->
+    <!-- CONFIRMATION: NO SVG graphics used. NO Mermaid JS used. -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8f7f4;
+            color: #1f2937;
+        }
+        .active-topic {
+            transform: translateY(-4px);
+            box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+            background-color: #4a5568;
+            color: #ffffff;
+        }
+        .topic-card {
+            transition: all 0.2s ease-in-out;
+        }
+    </style>
+</head>
+<body class="antialiased">
+    <main class="container mx-auto px-4 py-8 md:py-16">
+        
+                <header class="text-center mb-16">
+            <h1 class="text-4xl md:text-5xl font-bold text-slate-800 mb-4">🌖  An Introduction to Night Science</h1>
+            <p class="text-lg md:text-xl max-w-3xl mx-auto text-slate-600 italic">"Science in the works has two aspects: what could be called day science and night science." - François Jacob</p>
+        </header>
+
+        <section id="dichotomy" class="mb-20">
+             <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-slate-800">The Two Sides of Science</h2>
+                <p class="mt-2 text-lg text-slate-600">The process of discovery is a tale of two complementary worlds. The morning was for Day Science; this afternoon is for Night Science.</p>
+            </div>
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="bg-white p-8 rounded-xl shadow-lg border border-slate-200">
+                    <h3 class="text-2xl font-bold text-center mb-6">☀️ Day Science 🐓</h3>
+                    <p class="text-center text-slate-600 mb-6">This is the science we are formally trained in—the "science on the books." It's how we test, validate, and communicate our findings.</p>
+                    <ul class="space-y-4">
+                        <li class="flex items-start"><span class="mr-3 text-xl">➡️</span><div><strong>Logic-driven:</strong> Proceeds in clear, rational, and falsifiable steps.</div></li>
+                        <li class="flex items-start"><span class="mr-3 text-xl">🎯</span><div><strong>Hypothesis-testing:</strong> Focused on validating or refuting existing ideas.</div></li>
+                        <li class="flex items-start"><span class="mr-3 text-xl">🏗️</span><div><strong>Structured:</strong> Follows established protocols and rigorous methods.</div></li>
+                        <li class="flex items-start"><span class="mr-3 text-xl">🏆</span><div><strong>Goal-oriented:</strong> Aims to find a specific, publishable answer.</div></li>
+                        <li class="flex items-start"><span class="mr-3 text-xl">✍️</span><div><strong>Precise Language:</strong> Formal, unambiguous, and objective.</div></li>
+                    </ul>
+                </div>
+                <div class="bg-slate-800 text-white p-8 rounded-xl shadow-lg">
+                    <h3 class="text-2xl font-bold text-center mb-6">🦉 Night Science 🌖</h3>
+                    <p class="text-center text-slate-300 mb-6">This is the creative, often hidden, side of the process—the "workshop of the possible." It's where new ideas are born.</p>
+                    <ul class="space-y-4">
+                        <li class="flex items-start"><span class="mr-3 text-xl">✨</span><div><strong>Intuition-driven:</strong> Wanders, explores, and makes associative leaps.</div></li>
+                        <li class="flex items-start"><span class="mr-3 text-xl">💡</span><div><strong>Hypothesis-generating:</strong> Focuses on creating new questions and ideas.</div></li>
+                        <li class="flex items-start"><span class="mr-3 text-xl">🗺️</span><div><strong>Unstructured:</strong> Hesitates, stumbles, and questions everything.</div></li>
+                        <li class="flex items-start"><span class="mr-3 text-xl">🧭</span><div><strong>Process-oriented:</strong> The journey of exploration itself is the goal.</div></li>
+                        <li class="flex items-start"><span class="mr-3 text-xl">🗣️</span><div><strong>Metaphorical Language:</strong> Playful, analogical, and intuitive.</div></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="comparison" class="mb-20">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-slate-800">Day vs. Night: At a Glance</h2>
+                 <p class="mt-2 text-lg text-slate-600">A quick comparison to summarize the key differences in mode, goal, and mindset.</p>
+            </div>
+            <div class="overflow-x-auto bg-white rounded-lg shadow-md border border-slate-200">
+                <table class="w-full text-left text-slate-700">
+                    <thead class="bg-slate-100 text-slate-800">
+                        <tr>
+                            <th class="p-4">Aspect</th>
+                            <th class="p-4">Day Science ☀️</th>
+                            <th class="p-4">Night Science 🌖</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="border-t border-slate-200">
+                            <td class="p-4 font-semibold">Mode</td>
+                            <td class="p-4">Falsification</td>
+                            <td class="p-4">Improvisation</td>
+                        </tr>
+                        <tr class="border-t border-slate-200 bg-slate-50">
+                            <td class="p-4 font-semibold">Goal</td>
+                            <td class="p-4">Hypothesis-testing</td>
+                            <td class="p-4">Hypothesis-generating</td>
+                        </tr>
+                        <tr class="border-t border-slate-200">
+                            <td class="p-4 font-semibold">Logic</td>
+                            <td class="p-4">Linear & Consistent</td>
+                            <td class="p-4">Associative & Questioning</td>
+                        </tr>
+                        <tr class="border-t border-slate-200 bg-slate-50">
+                            <td class="p-4 font-semibold">Language</td>
+                            <td class="p-4">Precise & Formal</td>
+                            <td class="p-4">Metaphorical & Analogical</td>
+                        </tr>
+                        <tr class="border-t border-slate-200">
+                            <td class="p-4 font-semibold">State</td>
+                            <td class="p-4">Solving a known puzzle</td>
+                            <td class="p-4">Discovering the puzzle</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section id="mission" class="mb-20 bg-amber-50 border border-amber-200 rounded-xl p-8">
+            <div class="text-center">
+                <h2 class="text-3xl font-bold text-slate-800">The Agenda for This Afternoon</h2>
+                <p class="mt-2 text-lg text-slate-600 max-w-3xl mx-auto">This is a Night Science session—the goal is not to find the "right" answer, but to explore the landscape of possibilities together. </p>
+<!--                <ul class="mt-6 text-slate-700 space-y-2 inline-block text-left">-->
+<!--                    <li class="flex items-center"><span class="text-green-500 mr-2">✓</span>Have conversations on meta-science topics.</li>-->
+<!--                    <li class="flex items-center"><span class="text-green-500 mr-2">✓</span>Grow skills in the creative *process* of doing science.</li>-->
+<!--                    <li class="flex items-center"><span class="text-green-500 mr-2">✓</span>Learn how to keep an open mind.</li>-->
+<!--                </ul>-->
+            </div>
+        </section>
+
+
+        <section id="afternoon-sessions">
+            <div class="mb-8 border-b border-gray-200">
+                <nav class="-mb-px flex space-x-6" aria-label="Tabs">
+                    <button class="tab-button whitespace-nowrap py-4 px-1 border-b-2 font-medium text-lg text-gray-500 hover:text-gray-700 hover:border-gray-300" data-tab="session1">Session 1: Improvisation</button>
+                    <button class="tab-button whitespace-nowrap py-4 px-1 border-b-2 font-medium text-lg text-gray-500 hover:text-gray-700 hover:border-gray-300" data-tab="session2">Session 2: Meta Science</button>
+                </nav>
+            </div>
+
+            <div id="tab-content" class="bg-white p-8 rounded-xl shadow-lg border border-slate-200 min-h-[400px]">
+                <div id="session1-content" class="tab-pane">
+                    <h3 class="text-2xl font-bold text-slate-800 mb-4">Session 1: Improvisation Science Exercise</h3>
+                    <p class="text-xl font-semibold text-indigo-600 mb-6">‘What is your worst idea?’</p>
+                    <div class="space-y-4 text-slate-700">
+                        <p><strong>Format:</strong> Get into pairs.</p>
+                        <p><strong>Project:</strong> Try to improvise an extension of your project by asking: ‘What’s your worst idea for a project?’</p>
+                        <div>
+                            <strong>Prompts to consider:</strong>
+                            <ul class="list-disc list-inside mt-2 space-y-1">
+                                <li>How would you extend/advance your project in a new direction?</li>
+                                <li>What is something that’s attractive to you but may seem crazy or impossible?</li>
+                                <li>What is something that you haven’t done yet, but which might be interesting?</li>
+                            </ul>
+                        </div>
+                                                <p>
+                            <strong>Bonus:</strong> You can also chat with your favorite agent and compare the response 🤖
+                        </p>
+                        <div>
+                            <strong>Rules of Engagement:</strong>
+                            <ul class="list-disc list-inside mt-2 space-y-1">
+                                <li>Remember to use: <strong>“Yes, and …”</strong> (avoiding “No” and “but”).</li>
+                                <li>Make the other person feel comfortable sharing.</li>
+                                <li>After one round, swap roles with your partner and repeat.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div id="session2-content" class="tab-pane hidden">
+                    <h3 class="text-2xl font-bold text-slate-800 mb-4">Session 2: Meta Science </h3>
+                    <p class="text-xl font-semibold text-indigo-600 mb-6">The components of the scientific process </p>
+                    <div class="space-y-4 text-slate-700">
+                    <p><strong>Format:</strong> We will split into 4 groups.</p>
+                         <div>
+                             <p> <strong>Framing:</strong> Develop 3-5 approaches for your chosen topic and take turns making the case for each approach. At the end, share the identified approaches with the lab. </p>
+                        </div>
+                        <div>
+                             <p> <strong>Goals:</strong> Explore the meta-science of how science is done. We will discuss the different approaches to scientific work and their implications for future breakthroughs. </p>
+                        </div>
+                     <div id="topic-selector" class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8"></div>
+                     <div id="topic-details" class="bg-slate-50 p-6 rounded-lg border border-slate-200 min-h-[150px] flex items-center justify-center transition-all duration-300">
+                        <p class="text-slate-500 text-lg">Please select a topic to view the details.</p>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <footer class="text-center mt-20 py-8 border-t border-slate-200">
+        <p class="text-sm text-slate-500">
+            Content and exercises adapted from the 
+            <a href="https://www.night-science.org/" target="_blank" rel="noopener noreferrer" class="underline hover:text-indigo-600">Night Science</a> 
+            initiative by Itai Yanai & Martin Lercher.
+        </p>
+    </footer>
+
+    <script>
+        const topics = [
+            {
+                id: 'collaboration',
+                title: 'Individual Work vs. Collaboration',
+                prompt: 'Does individual work or group collaboration lead to better scientific breakthroughs?'
+            },
+            {
+                id: 'teamwork',
+                title: 'Academic vs. Industry vs. Startup Teamwork',
+                prompt: 'Which research environment - academia, industry, or startups - produces the most effective scientific teamwork?'
+            },
+            {
+                id: 'ai',
+                title: "AI's Impact on Scientific Work",
+                prompt: 'Will AI autonomous agents enhance or replace human scientists in the future of research?'
+            },
+            {
+                id: 'automation',
+                title: 'Laboratory Automation',
+                prompt: 'Should we fully automate laboratory science, or does hands-on experimentation remain essential for scientific discovery?'
+            }
+        ];
+
+        const tabButtons = document.querySelectorAll('.tab-button');
+        const tabPanes = document.querySelectorAll('.tab-pane');
+        const topicSelector = document.getElementById('topic-selector');
+        const topicDetails = document.getElementById('topic-details');
+
+        function switchTab(tabId) {
+            tabButtons.forEach(button => {
+                if (button.dataset.tab === tabId) {
+                    button.classList.add('active-tab');
+                } else {
+                    button.classList.remove('active-tab');
+                }
+            });
+
+            tabPanes.forEach(pane => {
+                if (pane.id === `${tabId}-content`) {
+                    pane.classList.remove('hidden');
+                } else {
+                    pane.classList.add('hidden');
+                }
+            });
+        }
+
+        function renderTopics() {
+            topicSelector.innerHTML = '';
+            topics.forEach(topic => {
+                const button = document.createElement('button');
+                button.className = 'topic-card text-left p-4 bg-slate-700 text-white rounded-lg shadow-md hover:bg-slate-600 hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-slate-500';
+                button.dataset.topicId = topic.id;
+
+                const title = document.createElement('span');
+                title.className = 'font-bold';
+                title.textContent = topic.title;
+
+                const prompt = document.createElement('p');
+                prompt.className = 'text-sm text-slate-300 mt-1';
+                prompt.textContent = topic.prompt;
+
+                button.appendChild(title);
+                button.appendChild(prompt);
+                topicSelector.appendChild(button);
+            });
+        }
+
+        function displayTopicDetails(topicId) {
+            document.querySelectorAll('.topic-card').forEach(card => {
+                card.classList.remove('active-topic');
+                if (card.dataset.topicId === topicId) {
+                    card.classList.add('active-topic');
+                }
+            });
+            if (topicId === 'collaboration') {
+                topicDetails.innerHTML = `
+                    <div  class="w-full space-y-4">
+                        <ul class="list-disc list-inside mt-2 space-y-1">
+                                <li>Discuss the balance between individual work and collaboration in scientific research. What are the pros and cons of each approach?</li>
+                                <li>Consider how collaboration can enhance creativity and problem-solving, but also how it can lead to conflicts or dilution of individual contributions</li>
+                                <li>Explore how different fields of science approach collaboration and whether there are best practices that can be applied across disciplines.</li>
+                            </ul>
+                    </div>
+                `;
+            }
+            else if (topicId === 'teamwork') {
+                topicDetails.innerHTML = `
+                    <div  class="w-full space-y-4">
+                        <ul class="list-disc list-inside mt-2 space-y-1">
+                                <li>Explore the differences in teamwork dynamics across academia, industry, and startups. How do these environments shape collaboration?</li>
+                                <li>Discuss the unique challenges and advantages of each setting, and how they influence scientific outcomes.</li>
+                                <li>Consider how the culture of each environment affects communication, decision-making, and innovation.</li>
+                            </ul>
+                    </div>
+                `;
+            }
+            else if (topicId === 'ai') {
+                topicDetails.innerHTML = `
+                    <div class="w-full space-y-4">
+                    <ul class="list-disc list-inside mt-2 space-y-1">
+                        <li>Debate the role of AI in scientific research. Will AI agents enhance human capabilities or eventually replace them?</li>
+                        <li>Consider the implications of AI on creativity, problem-solving, and the future of scientific discovery.</li>
+                        <li>Discuss the ethical considerations of using AI in research, including issues of bias, transparency, and accountability.</li>
+                    </ul>
+                `;
+            }
+            else if (topicId === 'automation') {
+                topicDetails.innerHTML = `
+                    <div class="w-full space-y-4">
+                    <ul class="list-disc list-inside mt-2 space-y-1">
+                        <li>Examine the potential benefits and drawbacks of fully automating laboratory science. Is hands-on experimentation still necessary?</li>
+                        <li>Discuss how automation could change the nature of scientific discovery, including the balance between efficiency and creativity.</li>
+                        <li>Consider the implications of automation on the role of scientists, including the skills and knowledge required in an increasingly automated environment.</li>
+                    </ul>
+                </div>
+                `;
+            }
+            else {
+                topicDetails.innerHTML = `<p class="text-slate-500 text-lg">Please select a valid topic to view the details.</p>`;
+            }
+        }
+
+        tabButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                switchTab(button.dataset.tab);
+            });
+        });
+
+        topicSelector.addEventListener('click', (e) => {
+            const card = e.target.closest('.topic-card');
+            if (card) {
+                const topicId = card.dataset.topicId;
+                displayTopicDetails(topicId);
+            }
+        });
+
+        document.addEventListener('DOMContentLoaded', () => {
+            switchTab('session1');
+            renderTopics();
+        });
+    </script>
+</body>
+</html>

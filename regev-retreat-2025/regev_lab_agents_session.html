@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lab Session – Doing Science With Agents</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap');
+    :root {
+      --regev-blue: #c8d3e3;  /* lighter blue */
+      --forest: #005596;
+      --card-bg: #ffffff;
+      --shadow: rgba(0,0,0,.08);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background: #f7f9fc;
+      color: #1f2937;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+    header {
+      background: var(--regev-blue);
+      padding: 1.5rem 1rem;
+      display: flex;
+      justify-content: center;
+    }
+    header img { height: 60px; }
+    main {
+      flex: 1;
+      max-width: 1000px;
+      margin: 0 auto;
+      width: 100%;
+      padding: 2rem 1rem 3rem;
+    }
+    h1 {
+      font-size: 2.25rem;
+      font-weight: 800;
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    h2 { color: var(--forest); margin-bottom: .75rem; }
+    section { margin-bottom: 2rem; }
+    ul { margin: 0; padding-left: 1.2rem; }
+    li { margin-bottom: .5rem; }
+
+    /* group blocks */
+    .groups {
+      display: grid;
+      gap: 1.5rem;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    }
+    .g-card {
+      background: var(--card-bg);
+      border-radius: 18px;
+      box-shadow: 0 6px 14px var(--shadow);
+      padding: 1.75rem 1.25rem;
+      text-align: center;
+      transition: transform .2s, box-shadow .2s;
+    }
+    .g-card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 10px 20px rgba(0,0,0,.12);
+    }
+    .g-card h3 {
+      margin: 0;
+      font-size: 1.75rem;
+      line-height: 1.3;
+    }
+    .g-card span {
+      display: block;
+      margin-top: .35rem;
+      font-size: .9rem;
+      color: #475569;
+      font-weight: 500;
+    }
+
+    footer {
+      background: #e2e8f0;
+      padding: 1rem;
+      text-align: center;
+      font-size: .9rem;
+      color: #475569;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="img/regev_gene_science_darkai.png" alt="Regev Lab Logo" />
+  </header>
+  <main>
+    <h1>Doing Science With Agents</h1>
+
+    <section>
+      <h2>Session Format</h2>
+        <p>We'll split into <i>four breakout groups</i> to share experiences and best practices for using AI agents in research.</p>
+    </section>
+
+    <section>
+      <h2>Goals</h2>
+      <ul>
+        <li>Exchange personal workflows &amp; tools</li>
+        <li>Identify do’s &amp; don’ts for agent use</li>
+        <li>Brainstorm future lab‑wide tooling ideas</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Breakout Groups</h2>
+      <div class="groups">
+        <div class="g-card">
+          <h3>G1<span>Ideation &amp; Literature Review</span></h3>
+        </div>
+        <div class="g-card">
+          <h3>G2<span>Data Analysis &amp; Interpretation</span></h3>
+        </div>
+        <div class="g-card">
+          <h3>G3<span>Experiment Design &amp; Input</span></h3>
+        </div>
+        <div class="g-card">
+          <h3>G4<span>Coding – best vibes 🙂</span></h3>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    &copy; 2025 Regev Lab Retreat – Sciencing at the Regev Lab
+  </footer>
+</body>
+</html>
