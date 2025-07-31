@@ -99,3 +99,7 @@ html_theme_options = {
         "color-background-hover": "#CECDCD"
     },
 }
+
+html_extra_path = [
+    "regev-retreat-2025",     # new line
+]
