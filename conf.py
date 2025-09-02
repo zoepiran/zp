@@ -102,4 +102,5 @@ html_theme_options = {
 
 html_extra_path = [
     "regev-retreat-2025",     # new line
+    "exstadyn",     # new line
 ]

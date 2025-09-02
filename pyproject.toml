@@ -9,7 +9,7 @@ authors = [
     {name = "Zoe Piran"},
 ]
 maintainers = [
-    {name = "Zoe Piran", email = "zoe.piran@mail.huji.ac.il"},
+    {name = "Zoe Piran", email = "zoe.piran@gmail.com"},
 ]
 urls.Documentation = "https://zoepiran.com/"
 urls.Source = "https://github.com/zoepiran/zp"
