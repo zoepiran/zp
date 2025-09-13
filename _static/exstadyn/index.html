@@ -38,8 +38,8 @@
                 </div>
                 <nav class="hidden md:flex md:space-x-8">
                     <a href="#background" class="text-slate-300 hover:text-white transition-colors duration-200">Background</a>
-                    <a href="#methodology" class="text-slate-300 hover:text-white transition-colors duration-200">Methodology</a>
                     <a href="#value" class="text-slate-300 hover:text-white transition-colors duration-200">The Value</a>
+                    <a href="#methodology" class="text-slate-300 hover:text-white transition-colors duration-200">Methodology</a>
                     <a href="#summary" class="text-slate-300 hover:text-white transition-colors duration-200">Summary</a>
                 </nav>
             </div>
@@ -102,8 +102,32 @@
              </div>
          </section>
 
+        <!-- The Value Section -->
+         <section id="value" class="py-20 sm:py-24">
+             <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+                 <div class="text-center max-w-3xl mx-auto">
+                     <h2 class="text-3xl font-bold tracking-tight text-white sm:text-4xl">Aspects of Live(-Cell Imaging)</h2>
+                     <p class="mt-4 text-lg text-slate-400">Unlike trajectory inference from static data, live-cell imaging follows the same cells over time, providing crucial longitudinal information for dynamic phenotypes.</p>
+                 </div>
+                 <div class="mt-16 grid lg:grid-cols-2 gap-8">
+                     <div class="glass-card rounded-xl p-8 border-l-4 border-green-500">
+                          <h3 class="text-xl font-semibold text-white">Ground Truth from Live Imaging</h3>
+                         <ul class="mt-4 space-y-2 text-slate-400">
+                             <li>Captures true longitudinal tracking of individual cells; crucial for understanding dynamic phenotypes (e.g., resistance, proliferation).</li>
+                         </ul>
+                     </div>
+                                          <div class="glass-card rounded-xl p-8 border-l-4 border-red-500">
+                         <h3 class="text-xl font-semibold text-white">Inference from Static Data</h3>
+                         <ul class="mt-4 space-y-2 text-slate-400">
+                             <li>Provides rich morphological and molecular readouts but fails to capture consecutive measurements of individual cells over time.</li>
+                         </ul>
+                     </div>
+                 </div>
+             </div>
+         </section>
+        
          <!-- Methodology Section -->
-         <section id="methodology" class="py-20 sm:py-24">
+         <section id="methodology" class="py-20 sm:py-24 bg-slate-950/50">
              <div class="container mx-auto px-4 sm:px-6 lg:px-8">
                  <div class="text-center max-w-3xl mx-auto">
                      <h2 class="text-3xl font-bold tracking-tight text-white sm:text-4xl">The Exstadyn Methodology</h2>
@@ -169,32 +193,7 @@
              </div>
          </section>
 
-         <!-- The Value Section -->
-         <section id="value" class="py-20 sm:py-24 bg-slate-950/50">
-             <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-                 <div class="text-center max-w-3xl mx-auto">
-                     <h2 class="text-3xl font-bold tracking-tight text-white sm:text-4xl">The Value of Live(-Cell Imaging)</h2>
-                     <p class="mt-4 text-lg text-slate-400">Unlike trajectory inference from static data, live-cell imaging follows the same cells over time, providing crucial longitudinal information for dynamic phenotypes.</p>
-                 </div>
-                 <div class="mt-16 grid lg:grid-cols-2 gap-8">
-                     <div class="glass-card rounded-xl p-8 border-l-4 border-red-500">
-                         <h3 class="text-xl font-semibold text-white">Inference from Static Data</h3>
-                         <ul class="mt-4 space-y-2 text-slate-400">
-                             <li>Lacks the ground truth of cellular trajectories.</li>
-                             <li>Fails to capture consecutive measurements of individual cells over time.</li>
-                         </ul>
-                     </div>
-                     <div class="glass-card rounded-xl p-8 border-l-4 border-green-500">
-                          <h3 class="text-xl font-semibold text-white">Ground Truth from Live Imaging</h3>
-                         <ul class="mt-4 space-y-2 text-slate-400">
-                             <li>Provides true longitudinal tracking of individual cells.</li>
-                             <li>Crucial for understanding dynamic phenotypes (e.g., resistance, proliferation).</li>
-                             <li>Requires static snapshots for rich morphological and molecular readouts.</li>
-                         </ul>
-                     </div>
-                 </div>
-             </div>
-         </section>
+         
 
          <!-- Summary Section -->
          <section id="summary" class="py-20 sm:py-24">
