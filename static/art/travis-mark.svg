@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="64" viewBox="0 0 96 64" preserveAspectRatio="xMidYMid meet" fill="none" role="img" aria-label="Travis terminal vision mark">
+  <title>Travis — terminal vision mark</title>
+  <path d="M6 22L16 32L6 42" stroke="#F29E38" stroke-width="3" stroke-linecap="square" stroke-linejoin="miter" />
+  <path d="M29 13H24V51H29" stroke="#008C86" stroke-width="2.6" stroke-linecap="square" stroke-linejoin="miter" />
+  <path d="M78 13H83V51H78" stroke="#008C86" stroke-width="2.6" stroke-linecap="square" stroke-linejoin="miter" />
+  <path d="M34 32C39.2 24.8 45.2 21.2 53.5 21.2C61.8 21.2 67.8 24.8 73 32C67.8 39.2 61.8 42.8 53.5 42.8C45.2 42.8 39.2 39.2 34 32Z" stroke="#14B8A6" stroke-width="2.6" stroke-linejoin="miter" />
+  <circle cx="53.5" cy="32" r="6.2" fill="#0B1324" />
+  <circle cx="55.6" cy="29.8" r="1.6" fill="white" />
+  <circle cx="69.5" cy="23" r="2.6" fill="#F29E38" />
+</svg>

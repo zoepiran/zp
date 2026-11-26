@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 70" class="w-20 h-14">
+            <g transform="translate(5, 8)">
+              <circle cx="20" cy="27" r="16" fill="#e6efed" stroke="#afc8c5" stroke-width="1.5"/>
+              <circle cx="14" cy="23" r="4" fill="#4d8984"/>
+              <rect x="20" y="19" width="6" height="6" fill="#82aaa6" rx="1"/>
+              <polygon points="18,33 14,41 22,41" fill="#afc8c5"/>
+            </g>
+            <path d="M44,35 L54,35" stroke="#afc8c5" stroke-width="2" marker-end="url(#arr2)"/>
+            <g transform="translate(58, 5)">
+              <circle cx="14" cy="10" r="9" fill="#f2f6f5" stroke="#afc8c5" stroke-width="1"/>
+              <circle cx="14" cy="10" r="4" fill="#4d8984"/>
+              <circle cx="14" cy="30" r="9" fill="#f2f6f5" stroke="#afc8c5" stroke-width="1"/>
+              <rect x="10" y="26" width="8" height="8" fill="#82aaa6" rx="1"/>
+              <circle cx="14" cy="50" r="9" fill="#f2f6f5" stroke="#afc8c5" stroke-width="1"/>
+              <polygon points="14,44 9,54 19,54" fill="#afc8c5"/>
+            </g>
+            <defs>
+              <marker id="arr2" markerWidth="5" markerHeight="5" refX="4" refY="2.5" orient="auto">
+                <path d="M0,0 L5,2.5 L0,5 Z" fill="#afc8c5"/>
+              </marker>
+            </defs>
+          </svg>

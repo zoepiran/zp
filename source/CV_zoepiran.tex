@@ -1,0 +1,177 @@
+% Zoe Piran -- public academic CV
+% Revised 26 November 2026. Compile with pdflatex, xelatex or tectonic.
+% Presentation details are linked to the official event programs.
+\documentclass[11pt,letterpaper]{article}
+\usepackage[T1]{fontenc}
+\ifdefined\XeTeXversion\else\usepackage[utf8]{inputenc}\fi
+\usepackage{mathpazo}
+\usepackage[margin=1.9cm]{geometry}
+\usepackage{enumitem}
+\usepackage{needspace}
+\usepackage{xcolor}
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\usepackage[colorlinks=true,urlcolor=blue,linkcolor=blue,citecolor=blue]{hyperref}
+\hypersetup{pdftitle={Zoe Piran -- Curriculum Vitae},pdfauthor={Zoe Piran}}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\linespread{1.04}
+\setlength{\emergencystretch}{2em}
+\raggedbottom
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\fancyfoot[R]{\small\thepage\ /\ \pageref*{LastPage}}
+\setlength{\footskip}{22pt}
+\newcommand{\cvsection}[1]{%
+  \par\addvspace{13pt}\Needspace{5\baselineskip}%
+  {\large\scshape #1}\par\vspace{3pt}\hrule height 0.4pt\vspace{7pt}}
+\newcommand{\cvsubsection}[1]{\par\addvspace{7pt}\Needspace{4\baselineskip}\textbf{#1}\par\vspace{4pt}}
+\newenvironment{dated}{\begin{description}[
+  style=multiline,leftmargin=3.1cm,labelwidth=2.85cm,labelsep=.25cm,
+  align=left,font=\normalfont\small,itemsep=5pt,parsep=0pt,topsep=0pt]}{\end{description}}
+\newcommand{\entry}[2]{\Needspace{3\baselineskip}\item[{#1}]#2}
+\newcommand{\me}{\textbf{Z.~Piran}}
+\newcommand{\equal}{\textsuperscript{*}}
+\newcommand{\program}[1]{\href{#1}{\mbox{\textit{[program]}}}}
+\setlist[enumerate]{leftmargin=1.6em,labelsep=.5em,itemsep=5pt,parsep=0pt,topsep=3pt}
+\setlist[itemize]{leftmargin=1.2em,label=\textendash,itemsep=5pt,parsep=0pt,topsep=2pt}
+\begin{document}
+{\LARGE\bfseries Zoe Piran}\hfill{Curriculum Vitae}\par
+\vspace{5pt}
+\href{mailto:zoe.piran@gmail.com}{zoe.piran@gmail.com}\quad
+\href{https://zoepiran.com}{zoepiran.com}\par
+
+\cvsection{Academic appointment}
+\begin{dated}
+\entry{Dec. 2024--present}{\textbf{Postdoctoral Fellow}\\
+Genentech Research \& Early Development --- Aviv Regev\\
+Stanford University School of Medicine --- Jure Leskovec\\[4pt]
+\textbf{AI for scientific discovery.} Developing agents that connect visual reasoning, live-cell imaging and experimental knowledge.}
+\end{dated}
+
+\cvsection{Education}
+\begin{dated}
+\entry{\smash{\parbox[t]{2.85cm}{Oct. 2020--\\Dec. 2024}}}{\textbf{Ph.D., Computer Science}\\
+The Hebrew University of Jerusalem. Supervisor: Mor Nitzan.\\
+\textit{Doctoral dissertation awarded distinction.}}
+\entry{2018--2020}{\textbf{M.Sc., Physics}\\
+The Hebrew University of Jerusalem. Supervisors: Naftali Tishby and Zohar Ringel.\\
+\textit{Magna cum laude}; average: 95.8.}
+\entry{2015--2018}{\textbf{B.Sc., Physics and Computer Science} (double major)\\
+The Hebrew University of Jerusalem. \textit{Magna cum laude}; average: 94.}
+\end{dated}
+
+\cvsection{Earlier research experience}
+\begin{dated}
+\entry{2020--2024}{\textbf{Doctoral research}, The Hebrew University of Jerusalem\\
+School of Computer Science and Engineering; Mor Nitzan.\\
+\textit{Encoding and decoding cellular identities in single-cell data.}\\
+Uncovering structure in complex biological systems using ideas and methods from computer science and physics.}
+\entry{May--Sep. 2023}{\textbf{Research Intern}, Apple ML Research, Paris\\
+Host: Marco Cuturi.\\
+\textit{Self-supervised learning using the Multi-Marginal Matching Gap.}\\
+Combining self-supervised learning with multi-marginal optimal transport.}
+\entry{2018--2020}{\textbf{Master's research}, The Hebrew University of Jerusalem\\
+Racah Institute of Physics; Naftali Tishby and Zohar Ringel.\\
+\textit{The Dual Information Bottleneck.}\\
+Developing an information-theoretic method connecting statistical mechanics and deep learning.}
+\entry{Oct. 2019}{\textbf{Visiting Scholar}, Harvard University\\
+NSF--Simons Center for Quantitative Biology.}
+\entry{2014--2017}{\textbf{Research with Nir Friedman}, The Hebrew University of Jerusalem\\
+School of Computer Science and Engineering and Alexander Silberman Institute of Life Sciences. Computational analysis of large biological datasets.}
+\end{dated}
+
+\clearpage
+\cvsection{Publications}
+{\small \equal\ Equal contribution.}\par
+\cvsubsection{Peer-reviewed publications}
+\begin{enumerate}
+\item J. Karin\equal, \me\equal{} \& M. Nitzan, ``Enhancing Swarms Durability to Threats via Graph Signal Processing and GNN-based Generative Modeling''. \textit{Phys. Rev. E} (2025). \href{https://doi.org/10.1103/f495-8ddd}{doi:10.1103/f495-8ddd}
+
+\item R. Vi\~nas Torn\'e, M. Wiatrak, \me, S. Fan, L. Jiang, S. A. Teichmann, M. Nitzan \& M. Brbi\'c, ``Systema: a framework for evaluating genetic perturbation response prediction beyond systematic variation''. \textit{Nature Biotechnology} (2025). \href{https://doi.org/10.1038/s41587-025-02777-8}{doi:10.1038/s41587-025-02777-8}
+
+\item D. Klein\equal, G. Palla\equal, M. Lange\equal, M. Klein\equal, \me\equal, M. Gander, L. Meng-Papaxanthos, M. Sterr, A. Bastidas-Ponce, M. Tarquis-Medina, H. Lickert, M. Bakhti, M. Nitzan, M. Cuturi \& F. J. Theis, ``Mapping cells through time and space with moscot.'' \textit{Nature} (2025). \href{https://doi.org/10.1038/s41586-024-08453-2}{doi:10.1038/s41586-024-08453-2}
+
+\item M. Ricci, G. Pelc, \me, N. Moriel, \& M. Nitzan, ``TRENDy: Temporal Regression of Effective Nonlinear Dynamics.'' \textit{The Thirteenth International Conference on Learning Representations} (2025). \href{https://openreview.net/pdf?id=NvDRvtrGLo}{[paper]}
+
+\item M. Lange\equal, \me\equal, M. Klein\equal, B. Spanjaard\equal, D. Klein, J. P. Junker, F. J. Theis, \& M. Nitzan, ``Mapping lineage-traced cells across time points with moslin.'' \textit{Genome Biology} (2024). \href{https://doi.org/10.1186/s13059-024-03422-4}{doi:10.1186/s13059-024-03422-4}
+
+\item \me\equal, M. Klein\equal, J. Thornton, \& M. Cuturi, ``Contrasting Multiple Representations with the Multi-Marginal Matching Gap.'' \textit{Proceedings of the 41st International Conference on Machine Learning} (2024). \href{https://proceedings.mlr.press/v235/piran24a.html}{[paper]}
+
+\item \me{} \& M. Nitzan, ``SiFT: uncovering hidden biological processes by probabilistic filtering of single-cell data.'' \textit{Nature Communications} 15.1 (2024): 760. \href{https://doi.org/10.1038/s41467-024-44757-7}{doi:10.1038/s41467-024-44757-7}
+
+\item \me, N. Cohen, Y. Hoshen \& M. Nitzan, ``Disentanglement of single-cell data with biolord.'' \textit{Nature Biotechnology} 42 (2024): 1678--1683. \href{https://doi.org/10.1038/s41587-023-02079-x}{doi:10.1038/s41587-023-02079-x}
+
+\item M. Ricci, N. Moriel, \me{} \& M. Nitzan, ``Phase2vec: Dynamical systems embedding with a physics-informed convolutional network.'' \textit{The Eleventh International Conference on Learning Representations} (2023). \href{https://openreview.net/forum?id=z9C5dGip90}{[paper]}
+
+\item \me{} \& T. Piran, ``The Origin of Binary Black Holes Mergers.'' \textit{The Astrophysical Journal} 892.1 (2020): 64. \href{https://doi.org/10.3847/1538-4357/ab792a}{doi:10.3847/1538-4357/ab792a}
+\end{enumerate}
+\cvsubsection{Preprints}
+\begin{enumerate}[resume]
+\item S. Dubnov, \me, H. Soreq \& M. Nitzan, ``Identifying maximally informative signal-aware representations of single-cell data using the Information Bottleneck.'' \textit{bioRxiv:2024.05.22.595292} (2024). \href{https://doi.org/10.1101/2024.05.22.595292}{doi:10.1101/2024.05.22.595292}
+
+\item \me, R. Shwartz-Ziv, \& N. Tishby, ``The Dual Information Bottleneck''. \textit{preprint arXiv:2006.04641} (2020). \href{https://doi.org/10.48550/arXiv.2006.04641}{doi:10.48550/arXiv.2006.04641}
+\end{enumerate}
+
+\clearpage
+\cvsection{Conference and symposium presentations}
+\cvsubsection{Talks}
+\begin{dated}
+\entry{Nov. 2026}{Tracing by visual reasoning.\\
+AITHYRA 1-Day Symposium: \textit{The Next Generation: AI for Biomedical Science}, Vienna, Austria. Oral presentation, 2 November. \program{https://www.aithyra.at/news/detail/aithyra-1-day-symposium-the-next-generation-ai-for-biomedical-science}}
+\entry{Feb. 2026}{Exposing spatiotemporal dynamics within the cellular continuum.\\
+11th ILANIT/FISEB Conference, Eilat, Israel. Oral presentation, 24 February. \program{https://program.eventact.com/LectureView/68822/202675/en}}
+\entry{Jul. 2024}{International Conference on Machine Learning (ICML). Oral presentation. \program{https://icml.cc/virtual/2024/events/oral}}
+\entry{Dec. 2023}{Optimal Transport and Machine Learning workshop, NeurIPS. Contributed talk. \program{https://otmlworkshop.github.io/}}
+\entry{Mar. 2023}{Physics of Life. Spotlight talk. \program{https://iop.eventsair.com/physics-of-life}}
+\entry{Jun. 2022}{Single Cell Biology. Spotlight talk. \program{https://coursesandconferences.wellcomeconnectingscience.org/event/single-cell-biology-20220606/}}
+\end{dated}
+\cvsubsection{Poster presentations}
+\begin{dated}
+\entry{Sep. 2026}{Single Cell Genomics, Dunblane, Scotland. Poster presentation. \program{https://conferences.weizmann.ac.il/SCG2026/}}
+\entry{Sep. 2025}{Single Cell Genomics, Djuronaset, Stockholm, Sweden. Poster presentation. \program{https://conferences.weizmann.ac.il/SCG2025/}}
+\entry{Mar. 2025}{AI Revolution Meets 4D Cellular Physiology, Janelia Research Campus. Poster presentation. \program{https://www.janelia.org/you-janelia/conferences/ai-revolution-meets-4d-cellular-physiology}}
+\entry{Sep. 2024}{Single Cell Genomics 2024. Poster presentation. \program{https://conferences.weizmann.ac.il/SCG2024/}}
+\entry{Jan. 2023}{5th Advanced School in Computer Science and Engineering: AI for Better Medicine. Poster presentation. \program{https://iias.huji.ac.il/event/5th-cse-school}}
+\end{dated}
+
+\cvsection{Seminars and research presentations}
+\begin{dated}
+\entry{Dec. 2025}{Department of Life Sciences, Ben-Gurion University, Be'er Sheva, Israel.}
+\entry{Jul. 2024}{Stanford AI+Biomedicine Seminar, Stanford University, California, USA.}
+\entry{May 2024}{Arjun Raj Lab, University of Pennsylvania, Philadelphia, USA.}
+\entry{May 2024}{Center for Computational Biology, Flatiron Institute, Simons Foundation, New York, USA.}
+\entry{May 2024}{Nir Yosef Lab, Weizmann Institute of Science, Rehovot, Israel.}
+\entry{Mar. 2024}{Journal Club, Judith Zaugg Lab. Virtual.}
+\entry{Feb. 2024}{Immunai, Tel Aviv, Israel.}
+\entry{Dec. 2023}{Compugen, Holon, Israel.}
+\entry{Jul. 2023}{scverse Community Meeting. Virtual.}
+\entry{Apr. 2023}{Lander Lab Group Meeting, Broad Institute of MIT and Harvard, Cambridge, USA.}
+\entry{Feb. 2023}{Shalev Itzkovitz Lab Group Meeting, Weizmann Institute of Science, Rehovot, Israel.}
+\entry{Nov. 2022}{Super Group Meeting, Hubrecht Institute, Utrecht, Netherlands.}
+\entry{Oct. 2019}{QBio Group Meeting, NSF--Simons Center for Quantitative Biology, Harvard University, Cambridge, USA.}
+\end{dated}
+
+\clearpage
+\cvsection{Awards and scholarships}
+\begin{dated}
+\entry{2025}{Certificate of Distinction for the doctoral dissertation, The Hebrew University of Jerusalem.}
+\entry{2022--2024}{Clore Scholarship for Ph.D. Students, The Clore Israel Foundation.}
+\entry{2021--2024}{Scholarship for Outstanding Doctoral Students in Data Science, Council for Higher Education.}
+\entry{2018}{Scholarship for Master's Degrees for Outstanding Women in Hi-Tech, Council for Higher Education.}
+\entry{2017--2018}{Computer Science Honors Program for Undergraduates, The Hebrew University of Jerusalem.}
+\entry{2016--2018}{Dean's Honors List, The Hebrew University of Jerusalem.}
+\end{dated}
+
+\cvsection{Teaching, service and outreach}
+\begin{dated}
+\entry{2026}{Co-organizer, \href{https://neurips.cc/virtual/2026/loc/paris/workshop/137616}{AIDaR: AI Data Readiness for Scientific Discovery}, NeurIPS 2026, Paris, France (12 December).}
+\entry{2024--present}{Co-organizer, Stanford AI+Biomedicine Seminar.}
+\entry{2020--2024}{Co-leader, Physics \& Computer Science Undergraduate Program, The Hebrew University of Jerusalem.}
+\entry{2018--2024}{Teaching Assistant, The Hebrew University of Jerusalem.\\
+Courses: Computation and Physics Lab; Mechanics for Bio-Medicine Students; General Physics---Mechanics for Chemistry \& Earth Students.}
+\entry{2018--2024}{Management of media channels, Racah Institute of Physics, The Hebrew University of Jerusalem.}
+\end{dated}
+
+\end{document}

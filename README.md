@@ -1,26 +1,39 @@
-####
+# Zoe Piran — personal website
 
-<img align="right" src="_static/img/zp_profile.png" alt= “zp” width=150 height="" style="border-radius:50%"> 
+Source for [www.zoepiran.com](https://www.zoepiran.com), served as a static site by GitHub Pages from the root of `main`.
 
-__Zoe Piran__\
-Postdoctoral Fellow,\
-[Genentech Research & Early Development](https://www.roche.com/innovation/structure/genentech), and  [Stanford Computer Science](https://www.cs.stanford.edu/).\
-piranz [at] gene.com | zoep [at] cs.stanford.edu 
-  
-  <a href="https://github.com/zoepiran"><i class="fa-brands fa-github fa-lg"></i></a>
-  <a href="https://twitter.com/zoe_piran"><i class="fa-brands fa-twitter fa-lg"></i></a>
-  <a href="https://scholar.google.com/citations?user=BlDw0uIAAAAJ&hl=en"><i class="fa-sharp fa-solid fa-graduation-cap fa-lg"></i></a>
+## Preview locally
 
+```sh
+python3 -m http.server 8777 --bind 127.0.0.1
+```
 
+Open <http://127.0.0.1:8777/>. There is no dependency installation or build step.
 
+## Edit the site
 
+- `index.html`: research overview, Travis, selected papers, talks, biography and contact.
+- `publications.html`: complete bibliography. Each article has a year, author list and `data-kind` (`published` or `preprint`).
+- `cv.html`: professional history and a link to the public PDF.
+- `style.css`: shared typography, colors and responsive layouts.
+- `site.js`: accessible publication search and filters. The content and navigation also work without JavaScript.
+- `static/`: self-hosted fonts, scientific illustrations, portrait and downloadable documents.
+- `source/CV_zoepiran.tex`: source for `static/CV_zoepiran.pdf`. Compile with `tectonic --outdir static source/CV_zoepiran.tex` or a compatible LaTeX engine. Check all rendered pages after changes.
 
----
+The `.md` pages, `conf.py` and Python/Sphinx files belong to the previous site setup. They are not the source for the current HTML pages. The existing `ilanit/` presentation and static presentation files remain independently accessible.
 
-#### About
-I recently started my postdoc at Genentech and Stanford, hosted by [Aviv Regev](https://www.roche.com/about/leadership/aviv-regev), and [Jure Leskovec](https://cs.stanford.edu/people/jure/). I intend to develop tools which will provide a deeper biological understanding by merging advancements in single-cell genomics and machine learning.
+## Design
 
-I did my PhD at the Hebrew University of Jerusalem under the supervision of [Mor Nitzan](https://www.nitzanlab.com/copy-of-home),
-where my research focused on decoding cellular identities in single-cell data to explore axes of biological variation. I developed computational frameworks to disentangle and reconstruct the multifaceted nature of cellular identity by filtering known biological signals and applying semi-supervised disentanglement methods.
+Use the AITHYRA / Travis house style: white canvas, ink text, restrained teal, Geist typography, fine rules, thin scientific line drawings and generous space. Keep the shared header and navigation consistent across all three pages. Avoid ornamental cards, shadows, heavy headings and extra accent colors.
 
-I finished my MSc in Physics in 2020 at the Hebrew University of Jerusalem advised by [Naftali Tishby](https://en.wikipedia.org/wiki/Naftali_Tishby) and [Zohar Ringel](http://old.phys.huji.ac.il/~zohar.ringel/). My thesis was at the interface between information theory and statistical mechanics suggesting a technique for dimensionality reduction. Previously I received my BSc, double major in Physics and Computer Science, from The Hebrew University of Jerusalem in 2018.
+The scientific drawings on the homepage are conceptual illustrations, not experimental results. Bibliographic artwork is reused from the author's presentation assets. See `static/art/README.md` for provenance.
+
+## Check before publishing
+
+- Review all pages on desktop, tablet and a narrow phone.
+- Check internal anchors, linked assets, publication search and both filters.
+- Keep the bibliography and public CV aligned; verify new citations against their official sources.
+- Preserve `CNAME`, `ilanit/`, presentation URLs and the established PDF URL.
+- Keep private contact details and unpublished internal material out of public files.
+
+Merging into `main` publishes through the existing GitHub Pages setup. A redesign branch does not change the live site.
