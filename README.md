@@ -8,32 +8,31 @@ Source for [www.zoepiran.com](https://www.zoepiran.com), served as a static site
 python3 -m http.server 8777 --bind 127.0.0.1
 ```
 
-Open <http://127.0.0.1:8777/>. There is no dependency installation or build step.
+Open <http://127.0.0.1:8777/>. There is no build step or dependency installation.
 
-## Edit the site
+## Pages and assets
 
-- `index.html`: research overview, Travis, selected papers, talks, biography and contact.
-- `publications.html`: complete bibliography. Each article has a year, author list and `data-kind` (`published` or `preprint`).
-- `cv.html`: professional history and a link to the public PDF.
-- `style.css`: shared typography, colors and responsive layouts.
-- `site.js`: accessible publication search and filters. The content and navigation also work without JavaScript.
-- `static/`: self-hosted fonts, scientific illustrations, portrait and downloadable documents.
-- `source/CV_zoepiran.tex`: source for `static/CV_zoepiran.pdf`. Compile with `tectonic --outdir static source/CV_zoepiran.tex` or a compatible LaTeX engine. Check all rendered pages after changes.
+- `index.html`: two paragraphs introducing the researcher and her research direction. The landing page is text-only.
+- `about.html`: biography, portrait, talks and academic organizing. Talk titles are italic. All education and internship details share one paragraph.
+- `publications.html`: the complete bibliography in a compact, searchable list. Titles link directly to papers; the single preprint remains in the same list.
+- `cv.html`: compatibility redirect to `static/CV_zoepiran.pdf`. Current navigation links open the PDF directly.
+- `style.css`: shared typography and responsive layout.
+- `site.js`: publication search. Content and navigation also work without JavaScript.
+- `static/fonts/`: self-hosted fonts and their licenses.
+- `static/img/zp-mark.svg`, `favicon.ico` and `apple-touch-icon.png`: the ZP favicon in browser and touch-icon formats.
 
-The `.md` pages, `conf.py` and Python/Sphinx files belong to the previous site setup. They are not the source for the current HTML pages. The existing `ilanit/` presentation and static presentation files remain independently accessible.
+The `.md` pages, `conf.py` and Python/Sphinx files belong to the previous site. Existing `ilanit/` and static presentations remain independently accessible. `source/CV_zoepiran.tex` is an earlier website-specific source; it does not reproduce the current supplied PDF. Do not overwrite the PDF by compiling that source.
 
 ## Design
 
-Use the AITHYRA / Travis house style: white canvas, ink text, restrained teal, Geist typography, fine rules, thin scientific line drawings and generous space. Keep the shared header and navigation consistent across all three pages. Avoid ornamental cards, shadows, heavy headings and extra accent colors.
+Use a compact reading layout: 13px Literata body text, a 14px name, 15px page headings, a 660px left-aligned column, white background, graphite text and blue links. Keep text at this scale on mobile. The About portrait is 64px wide beside the section title on desktop and 56px on mobile. Biography and subsequent sections share one left edge.
 
-The scientific drawings on the homepage are conceptual illustrations, not experimental results. Bibliographic artwork is reused from the author's presentation assets. See `static/art/README.md` for provenance.
+Keep navigation ordered About, Publications, CV. There is no separate Research page. Avoid diagrams, cards, decorative arrows, large photos, oversized headings and slide-like sections. Preserve the homepage’s authored punctuation: the semicolon after “scientific autonomy,” “observation (monitoring),” and literal `--->` and `>` characters.
 
-## Check before publishing
+## Verification and publishing
 
-- Review all pages on desktop, tablet and a narrow phone.
-- Check internal anchors, linked assets, publication search and both filters.
-- Keep the bibliography and public CV aligned; verify new citations against their official sources.
-- Preserve `CNAME`, `ilanit/`, presentation URLs and the established PDF URL.
-- Keep private contact details and unpublished internal material out of public files.
+Before publishing, check desktop and phone layouts, local links, publication search, the CV redirect and PDF response. Preserve `CNAME`, `ilanit/`, presentation URLs and the established PDF URL. Verify new bibliographic details against official sources.
 
-Merging into `main` publishes through the existing GitHub Pages setup. A redesign branch does not change the live site.
+The published CV omits the supplied original’s home address, personal phone number and date of birth; citizenship is retained. Keep private contact information and unpublished internal material out of public files. Review any replacement CV before publishing.
+
+GitHub Pages deploys from `main`. Publish only when explicitly requested, then verify the deployment and live pages.

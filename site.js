@@ -7,7 +7,7 @@
   const count = document.getElementById('publication-count');
   const empty = document.getElementById('publication-empty');
   const normalize = value => value.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
-  const contents = papers.map(paper => normalize(paper.textContent));
+  const contents = papers.map(paper => normalize(`${paper.textContent} ${paper.dataset.keywords || ''}`));
   let filter = 'all';
   function update() {
     const words = normalize(search.value).trim().split(/\s+/).filter(Boolean);
